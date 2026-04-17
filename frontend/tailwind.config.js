@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+// Force Tailwind Re-compilation trigger
 export default {
   content: [
     "./index.html",
@@ -7,12 +8,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: '#0F172A',
-        surface: '#1E293B',
-        primary: '#3B82F6',
-        secondary: '#8B5CF6',
-        textMain: '#F8FAFC',
-        textMuted: '#94A3B8',
+        background: '#FAF5F7', // elegant airy blush pink
+        surface: '#FFFFFF',
+        primary: '#E098AE', // dusty rose
+        secondary: '#D4B4CB', // soft mauve/lavender
+        textMain: '#333333', // highly readable dark charcoal
+        textMuted: '#888888', // legible medium gray
       },
       fontFamily: {
         sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
